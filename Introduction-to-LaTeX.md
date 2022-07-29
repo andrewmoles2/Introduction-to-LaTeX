@@ -60,18 +60,25 @@ A friend sent you a really cool article on the gender pay gap in the UK and you 
 
 You think of a creative solution...you've been meaning to learn LaTeX so how about we write the document into LaTeX so we can edit and change what we like?  
 
-You find a useful template online to get you started - [latex_template](https://www.overleaf.com/read/hznjnmfmjfqx). Everything you need for this workshop will be in the template.  
+You've emailed the author to ask them about the images and if you can use their article. They respond enthusiastically giving you a link to the files that has the following resources that will help you make your document: 
 
-You've emailed the author to ask them about the images and if you can use their article. They respond enthusiastically giving you a link (ADD LINK HERE) that has the following resources that will help you make your document: 
+* The pdf of their document called **gender\_pay_gap.pdf**
+* A csv file with the output of one of their analysis called **paygap\_sector_averages.csv**
+* The two images they used in their report called **pay\_gap_bot.png** and **paygap.png**
+* Their references file called **references.bib**
+* A LaTeX template called **LaTeX_workshop.zip**
 
-* The pdf of their document
-* A csv file with the output of one of their analysis
-* The two images they used in their report
-* Their references file
+[Click link to access the files](https://lsecloud.sharepoint.com/:f:/s/TEAM_APD-DSL-Digital-Skills-Trainers/EohcJ1rf8qxAix5pn73IPwwBq_5uCynBmNQ6XWuc9UTDQw?e=Kf16Zi)
+
+### Task 0 - load the template into Overleaf
+
+Open Overleaf -> New Project -> Upload Project -> upload the **LaTeX_workshop.zip** file
+
+Once uploaded, you'll see your first LaTeX document...it needs a bit of work! 
 
 ### Task 1 — title page
 
-First we need to build up that title page! 
+Now we have the a basic document we need to build up that title page! 
 
 Using the **gender\_pay_gap.pdf** file as your example:
 
@@ -83,7 +90,7 @@ Using the **gender\_pay_gap.pdf** file as your example:
 
 ### Task 2 — contents
 
-Now we have the nice looking title page, which is a great start! 
+We have the nice looking title page, which is a great start! 
 
 Next we set up the contents page which should include a table of contents, list of figures, and list of tables. We might not have added tables or figures yet, but we will soon. 
 
