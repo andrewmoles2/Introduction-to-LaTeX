@@ -38,11 +38,9 @@ The main advantages of using LaTeX are that it is great at handling complex form
 
 LaTeX has been around a while, and therefore there are lots of options available to write and make LaTeX documents. The easiest way to get started with is Overleaf (formally ShareLaTeX). 
 
-Make an overleaf account
+To get started you will need to [make an overleaf account](https://www.overleaf.com/register). 
 
-Insert link here Overleaf template I made for the workshop
-
-*(TAP style demo introducing Overleaf and basic LaTeX document structure. This would mean students go to links and trainer walks them through and asks questions about various features like what does document class mean, begin and end etc. )*
+*Screenshot here of overleaf landing page of basic project*
 
 ## Useful resources to use during this session
 
@@ -70,7 +68,7 @@ You've emailed the author to ask them about the images and if you can use their 
 
 [Click link to access the files](https://lsecloud.sharepoint.com/:f:/s/TEAM_APD-DSL-Digital-Skills-Trainers/EohcJ1rf8qxAix5pn73IPwwBq_5uCynBmNQ6XWuc9UTDQw?e=Kf16Zi)
 
-### Task 0 - load the template into Overleaf
+### Task 0 — load the template into Overleaf
 
 Open Overleaf -> New Project -> Upload Project -> upload the **LaTeX_workshop.zip** file
 
@@ -104,7 +102,7 @@ You are very particular and notice in our document we have numbers next to our s
 \addcontentsline{toc}{section}{Introduction}
 ```
 
-### Task 3 - upload documents to Overleaf
+### Task 3 — upload documents to Overleaf
 
 For the next tasks we will need to upload the resources the author sent us into Overleaf. Using the upload button (on the upper left hand side of Oveleaf, just under menu) add the following files to your Overleaf project:
 
