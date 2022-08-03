@@ -3,7 +3,7 @@ title: "Introduction to LaTeX"
 author:
    - name: Andrew Moles
      affiliation: Learning Developer, Digital Skills Lab
-date: "01 August, 2022"
+date: "03 August, 2022"
 output: 
   html_document: 
     theme: united
@@ -11,6 +11,7 @@ output:
     keep_md: yes
     code_download: FALSE
     toc: TRUE
+    toc_depth: 4
     toc_float: FALSE
 ---
 
@@ -20,7 +21,9 @@ LaTeX (pronounced LAY-tek or LAH-tek) is a tool for creating professional-lookin
 
 In LaTeX the document and the output are separated. This means you only focus on the contents of the document, and your computer will handle the formatting, which saves a lot of work. 
 
-The main advantages of using LaTeX are that it is great at handling complex formatting such as mathematical formulas, table of contents, figure positions, bibliographies and more. Another advantage is once you've written the content of your document, you can change your documents appearance without any weird formatting consequences (I'm looking at you Microsoft Word). The obvious disadvantage is that you have to do some coding to use it, which has a learning curve! 
+The main advantages of using LaTeX are that it is great at handling complex formatting such as mathematical formulas, table of contents, figure positions, bibliographies and more. Another advantage is once you've written the content of your document, you can change your documents appearance without any weird formatting consequences (I'm looking at you Microsoft Word). 
+
+The obvious disadvantage is that you have to do some coding to use it, which has a learning curve! 
 
 ## Outcomes
 
@@ -33,6 +36,7 @@ The main advantages of using LaTeX are that it is great at handling complex form
   - tables
   - hyper links
   - references
+  - equations 
 
 ## Introduction to Overleaf
 
@@ -40,12 +44,16 @@ LaTeX has been around a while, and therefore there are lots of options available
 
 To get started you will need to [make an overleaf account](https://www.overleaf.com/register). 
 
-*Screenshot here of overleaf landing page of basic project*
+<div class="figure" style="text-align: center">
+<img src="overleaf-env.png" alt="The environment you will see when you open a project in Overleaf. This is the 'Example Project' template. Key things to note are the top right with the main.tex and frog.jpg which are your files. Middle is your tex file where you do all your writing. Right is the output." width="80%" />
+<p class="caption">The environment you will see when you open a project in Overleaf. This is the 'Example Project' template. Key things to note are the top right with the main.tex and frog.jpg which are your files. Middle is your tex file where you do all your writing. Right is the output.</p>
+</div>
+
 
 ## Useful resources to use during this session
 
 * [Overleaf documentation](https://www.overleaf.com/learn)
-* Google search what you need — e.g. hyperlink colour latex
+* Google search what you need - e.g. *hyperlink colour latex*
 
 ### Extra resources for after the session
 * Videos that [introduce various LaTeX topics](https://www.youtube.com/playlist?list=PLnC5h3PY-znyDQKn3knfXfekZLgWyL7QW)
@@ -162,7 +170,7 @@ And later in the document you'll need this which builds the reference list at th
 
 ### Task 6 — hyperlinks
 
-Now went you *Recompile* you'll have a reference page, very exciting! 
+Now when you *Recompile* you'll have a reference page, very exciting! 
 
 However, you notice the colour of the citations, url links, and the contents page look different to our pdf document we are copying, we can't have that! 
 
@@ -206,12 +214,20 @@ We are almost there, just the discussion left. Two new features here are a quote
 
 Wow, we've just taken a pdf document and converted it to LaTeX! 
 
+Download a copy for yourself to your computer (download to pdf button is next to recompile button). 
+
 ### Final task — take our survey
 
 Link to survey here
 
 ## Whats next?
 
-R Markdown with LaTeX
+The Digital Skills Lab will be running a follow up workshop to on LaTeX about ***report writing with R Markdown***. R Markdown is a tool for making dynamic document with R which combines markdown, a lightweight markup language that is an easy-to-write plain text format, and sections or chunks of embedded R code. This is powerful as is allows you to write reports or presentations that contain your R code as well as the documents being easy to write due to markdown. 
 
-Write your CV in LaTeX - check out the LaTex templates to help you with this
+LaTeX has a great open-source community, and their are thousands of great templates, packages, and extensions out there which you can use depending on your needs. Two good places to start looking for templates are the [LaTeX Templates page](https://www.latextemplates.com/) and the [Overleaf Templates](https://www.overleaf.com/latex/templates). 
+
+### Take home challenge
+
+Write your CV using LaTeX! 
+
+LaTeX is a great tool to write your CV due to its control over formatting. Try making your CV using templates from either [latextemplates.com](https://www.latextemplates.com/cat/curricula-vitae) or [Overleaf](https://www.overleaf.com/latex/templates/tagged/cv). 
