@@ -75,7 +75,7 @@ You've emailed the author to ask them about the images and if you can use their 
 * Their references file called **references.bib**
 * A LaTeX template called **LaTeX_workshop.zip**
 
-[Click link to access the files](https://lsecloud.sharepoint.com/:f:/s/TEAM_APD-DSL-Digital-Skills-Trainers/EohcJ1rf8qxAix5pn73IPwwBq_5uCynBmNQ6XWuc9UTDQw?e=Kf16Zi)
+[Click link to access the files](https://lsecloud.sharepoint.com/:f:/s/TEAM_APD-DSL-Digital-Skills-Trainers/EuB98M0onDpPrZY6cNrWkBcBhMH82p90h8keWN2u4B0FVQ?e=bAXjmK)
 
 ### Task 0 — load the template into Overleaf
 
