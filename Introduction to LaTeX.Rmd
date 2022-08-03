@@ -11,6 +11,7 @@ output:
     keep_md: yes
     code_download: FALSE
     toc: TRUE
+    toc_depth: 4
     toc_float: FALSE
 ---
 
@@ -45,7 +46,7 @@ To get started you will need to [make an overleaf account](https://www.overleaf.
 ## Useful resources to use during this session
 
 * [Overleaf documentation](https://www.overleaf.com/learn)
-* Google search what you need — e.g. hyperlink colour latex
+* Google search what you need - e.g. *hyperlink colour latex*
 
 ### Extra resources for after the session
 * Videos that [introduce various LaTeX topics](https://www.youtube.com/playlist?list=PLnC5h3PY-znyDQKn3knfXfekZLgWyL7QW)
@@ -162,7 +163,7 @@ And later in the document you'll need this which builds the reference list at th
 
 ### Task 6 — hyperlinks
 
-Now went you *Recompile* you'll have a reference page, very exciting! 
+Now when you *Recompile* you'll have a reference page, very exciting! 
 
 However, you notice the colour of the citations, url links, and the contents page look different to our pdf document we are copying, we can't have that! 
 
