@@ -341,7 +341,7 @@ pre code {
 <h1 class="title toc-ignore">Introduction to LaTeX</h1>
 <h4 class="author">Andrew Moles</h4>
 <address class="author_afil">
-Learning Developer, Digital Skills Lab<br><h4 class="date">03 August,
+Learning Developer, Digital Skills Lab<br><h4 class="date">02 September,
 2022</h4>
 
 </div>
@@ -361,7 +361,11 @@ the session</a></li>
 <li><a href="#exercises" id="toc-exercises">Exercises</a>
 <ul>
 <li><a href="#task-0-load-the-template-into-overleaf" id="toc-task-0-load-the-template-into-overleaf">Task 0 — load the
-template into Overleaf</a></li>
+template into Overleaf</a>
+<ul>
+<li><a href="#a-side-note-on-latex-document-structure-and-syntax" id="toc-a-side-note-on-latex-document-structure-and-syntax">A side note
+on LaTeX document structure and syntax</a></li>
+</ul></li>
 <li><a href="#task-1-title-page" id="toc-task-1-title-page">Task 1 —
 title page</a></li>
 <li><a href="#task-2-contents" id="toc-task-2-contents">Task 2 —
@@ -395,8 +399,8 @@ home challenge</a></li>
 
 <div id="what-is-latex-and-why-use-it" class="section level2">
 <h2>What is LaTeX and why use it</h2>
-<p>LaTeX (pronounced LAY-tek or LAH-tek) is a tool for creating
-professional-looking documents, reports, books, CVs, and
+<p>LaTeX (pronounced <em>LAY-tek</em> or <em>LAH-tek</em>) is a tool for
+creating professional-looking documents, reports, books, CVs, and
 presentations.</p>
 <p>In LaTeX the document and the output are separated. This means you
 only focus on the contents of the document, and your computer will
@@ -412,6 +416,7 @@ it, which has a learning curve!</p>
 </div>
 <div id="outcomes" class="section level2">
 <h2>Outcomes</h2>
+<p>By the end of this workshops you will:</p>
 <ul>
 <li>Start to use Overleaf</li>
 <li>Create document in LaTeX that includes
@@ -426,12 +431,19 @@ it, which has a learning curve!</p>
 <li>equations</li>
 </ul></li>
 </ul>
+<p>It might feel like there is a lot to explore. However, we split it
+into separate sections to make it easier for you to work through. We
+hope you enjoy it!</p>
 </div>
 <div id="introduction-to-overleaf" class="section level2">
 <h2>Introduction to Overleaf</h2>
 <p>LaTeX has been around a while, and therefore there are lots of
 options available to write and make LaTeX documents. The easiest way to
-get started with is Overleaf (formally ShareLaTeX).</p>
+get started with is Overleaf (formally ShareLaTeX), which has a clear
+user interface and will spare you from software and package
+installation. Overleaf is an online interface to write LaTeX code and
+produce documents; the syntax used is the same as any other LaTeX
+editor.</p>
 <p>To get started you will need to <a href="https://www.overleaf.com/register">make an overleaf
 account</a>.</p>
 <div class="figure" style="text-align: center">
@@ -491,25 +503,85 @@ document:</p>
 link to access the files</a></p>
 <div id="task-0-load-the-template-into-overleaf" class="section level3">
 <h3>Task 0 — load the template into Overleaf</h3>
-<p>Open Overleaf -&gt; New Project -&gt; Upload Project -&gt; upload the
+<p>Open Overleaf -&gt; New Project (Green button in the upper-left
+corner) -&gt; Upload Project -&gt; upload the
 <strong>LaTeX_workshop.zip</strong> file</p>
-<p>Once uploaded, you’ll see your first LaTeX document…it needs a bit of
-work!</p>
+<p>Once uploaded, Overleaf will present you with a split-screen. On the
+left side you will see LATeX code. On the right side you will see the
+result of running the code, i.e., the way you report will look like. As
+you can tell, it requires some work…</p>
+<hr />
+<div id="a-side-note-on-latex-document-structure-and-syntax" class="section level4">
+<h4>A side note on LaTeX document structure and syntax</h4>
+<p>Now you have the document open in Overleaf we can take a quick
+de-tour for a run through of the general ideas and rules of LaTeX.</p>
+<div id="document-structure" class="section level5">
+<h5>Document structure</h5>
+<p>LaTeX documents have a two part structure. The first section is
+called the <em>preamble</em>, and the section section is where your
+document starts (look for the <code>\begin{document}</code> syntax).</p>
+<p>The <em>preamble</em> is the set up, where you specify:</p>
+<ul>
+<li>What you want to do in LaTeX such as writing a document, a
+presentation, Cv and so on. Look for the
+<code>\documentclass[11pt]{article}</code> syntax which tells you what
+you are working on</li>
+<li>You set up your title and references. Look in the document for
+anything that says bibliography and title</li>
+<li>What packages you will be using. Packages in LaTeX are similar to
+the way we use them in other programming languages like R and Python. We
+load in the package and then it is available for use. You can see if a
+package has been loaded by looking for the <code>\usepackage{}</code>
+syntax. How many packages are we using in our template?</li>
+</ul>
+<p>Where your document starts, after <code>\begin{document}</code>, is
+where all your writing, figures, tables, sections and so on will go.</p>
+</div>
+<div id="syntax" class="section level5">
+<h5>Syntax</h5>
+<p>The syntax of LaTeX has a few specific rules which are outlined
+below:</p>
+<ul>
+<li>We start commands with a backslash such as
+<code>\newpage</code></li>
+<li>Most commands have parameters which go in curly brackets such as
+<code>\title{Joe Bloggs}</code></li>
+<li>Arguments go in square brackets such as
+<code>\documentclass[11pt]{article}</code> where 11pt is the argument
+for the size of the text</li>
+<li>plain text is just plain text</li>
+<li>If something begins, we need to end it. To put it more
+philosophically <em>Anything that has a beginning must have an
+ending</em></li>
+<li>We write comments using the percent sign</li>
+<li>Special characters like % need to be <em>escaped</em>, which means
+we ignore that characters special characteristics. This can be done with
+the backslash like: <code>25\%</code></li>
+</ul>
+<hr />
+</div>
+</div>
 </div>
 <div id="task-1-title-page" class="section level3">
 <h3>Task 1 — title page</h3>
 <p>Now we have the a basic document we need to build up that title
 page!</p>
+<p>In Overleaf take a look on the left panel where the code is. Can you
+spot any code that would define a title, the authors, the date, and an
+abstract?</p>
 <p>Using the <strong>gender_pay_gap.pdf</strong> file as your
 example:</p>
 <ul>
-<li>Add the title</li>
-<li>Add the authors but replace with your own name</li>
-<li>Add the date with todays date</li>
-<li>Add the abstract</li>
+<li>Change the title</li>
+<li>Replace the authors with your own name</li>
+<li>change the date to todays date</li>
+<li>Change the abstract</li>
 <li>Make sure the title and abstract are on a separate page to the rest
 of the document.</li>
 </ul>
+<p><em>Hint: Looking at the command <code>\title{your title here}</code>
+what is the output of this code? Check the panel in the left and look at
+your title. How would you change the text of the title?</em></p>
 </div>
 <div id="task-2-contents" class="section level3">
 <h3>Task 2 — contents</h3>
@@ -519,9 +591,10 @@ contents, list of figures, and list of tables. We might not have added
 tables or figures yet, but we will soon.</p>
 <ul>
 <li>Use the <a href="https://www.overleaf.com/learn">Overleaf
-documentation</a> to find out how to add these to your document</li>
-<li>Make sure your contents page are on a separate page to the rest of
-the document</li>
+documentation</a> to find out how to add a table of contents, list of
+figures, and list of tables to your document</li>
+<li>Make sure your content page is on a separate page to the rest of the
+document</li>
 </ul>
 <p>You are very particular and notice in our document we have numbers
 next to our sections but the document we are copying doesn’t, how
@@ -542,8 +615,14 @@ Overleaf project:</p>
 <li>paygap.png</li>
 <li>references.bib</li>
 </ul>
-<p>Once uploaded, you’ll be able to see the files in your project. Try
-clicking on them to view them.</p>
+<p>Once uploaded, you’ll be able to see the files in your project (on
+the left to your code). Try clicking on them to view them.</p>
+<p>Note that once you recompile your document you will get the following
+error: <strong>Package natbib Warning: Empty ‘thebibliography’
+environment on input line 3</strong>. We will be adding our references
+later which will fix the issue, but if you want to solve this now add
+<code>\nocite{*}</code> before
+<code>\bibliography{references.bib}</code>.</p>
 </div>
 <div id="task-4-introduction" class="section level3">
 <h3>Task 4 — introduction</h3>
@@ -553,9 +632,12 @@ place to start adding the content to our document.</p>
 <ul>
 <li>Copy introduction text from the pdf into Overleaf (make sure to
 paste in the introduction section)</li>
-<li>Add the links. Click on the links to get the urls</li>
+<li>Using the Overleaf documentation:
+<ul>
+<li>Add the links. Right click on the links to get the urls</li>
 <li>Add the figure, which is the <code>pay_gap_bot.png</code> image file
 in your project</li>
+</ul></li>
 <li>Make sure you’ve added a caption and your image is in the centre of
 the page</li>
 </ul>
@@ -565,8 +647,8 @@ this will work:
 </div>
 <div id="task-5-methods" class="section level3">
 <h3>Task 5 — methods</h3>
-<p>You might notice now, when you <em>Recompile</em> the gender pay gap
-bot figure now appears in your list of figures, cool!</p>
+<p>You might notice when you <em>Recompile</em> the gender pay gap bot
+figure now appears in your list of figures, cool!</p>
 <p>Next up, the methods section which has more new elements in equations
 and citations.</p>
 <ul>
@@ -579,12 +661,18 @@ introduction</li>
 <li>Add the references, all of which are in the <em>references.bib</em>
 file</li>
 </ul>
+<p>If you added <code>\nocite{*}</code> on task 3, you can remove it now
+if your references are not appearing.</p>
 <p>Reference hint 1: there are two ways to cite in LaTeX using either
 <code>\cite{}</code> or <code>\citep{}</code>. It looks like our example
 has used <code>\citep{}</code>.</p>
 <p>Reference hint 2: each reference in the <em>references.bib</em> file
 has a label which you use within the cite command like
 <code>\cite{ggtext}</code>.</p>
+<p>Reference hint 3: if you are interested in having numbered references
+you can add in <code>\setcitestyle{numbers}</code> above
+<code>\bibliographystyle{apsr}</code>. This <a href="https://tex.stackexchange.com/questions/412067/how-to-add-numbering-to-reference-list-but-still-use-authoryear-in-natbib">useful
+Stack Exchange thread</a> has more information.</p>
 <div id="general-note-about-references" class="section level4">
 <h4>General note about references</h4>
 <p>The template, rather helpfully, has been set up to handle citations
@@ -593,9 +681,9 @@ these two lines somewhere before <code>\begin{document}</code>:</p>
 <pre><code>% this is for the bibliography
 \usepackage[]{natbib}
 \bibliographystyle{apsr}</code></pre>
-<p>And later in the document you’ll need this which builds the reference
-list at the end of your document. This should go just before your
-<code>\end{document}</code>.</p>
+<p>And later in the document you’ll need the code below which builds the
+reference list at the end of your document. This should go just before
+your <code>\end{document}</code>.</p>
 <pre><code>% end with the bibliography
 \newpage
 
@@ -632,7 +720,7 @@ document</li>
 <li>Add the footnote about tokenisation</li>
 <li>Add the two url links</li>
 <li>The copied table doesn’t work! You think writing tables from scratch
-in LaTeX seems like a lot of effort. After a google search you find a <a href="https://tableconvert.com/">table convert tool</a> which will do
+in LaTeX seems like a lot of effort. After a Google search you find a <a href="https://tableconvert.com/">table convert tool</a> which will do
 the hard work for you, great! Upload the
 <em>paygap_sector_average.csv</em> to the table converter to get your
 table. Make sure it has a caption</li>
@@ -660,7 +748,7 @@ are a quote and a list.</p>
 results</li>
 <li>Copy the text from the discussion page in the pdf to your Overleaf
 document</li>
-<li>Format the quote properly using the quote function
+<li>Format the quote properly using the quote command
 <code>\begin{quote} `` your quote &#39;&#39; \end{quote}</code></li>
 <li>Add the footnote</li>
 <li>Format the list using the Overleaf documentation for help</li>
@@ -676,13 +764,13 @@ is next to recompile button).</p>
 </div>
 <div id="whats-next" class="section level2">
 <h2>Whats next?</h2>
-<p>The Digital Skills Lab will be running a follow up workshop to on
-LaTeX about <strong><em>report writing with R Markdown</em></strong>. R
-Markdown is a tool for making dynamic document with R which combines
-markdown, a lightweight markup language that is an easy-to-write plain
-text format, and sections or chunks of embedded R code. This is powerful
-as is allows you to write reports or presentations that contain your R
-code as well as the documents being easy to write due to markdown.</p>
+<p>The Digital Skills Lab will be running a follow up workshop about
+<strong><em>report writing with R Markdown</em></strong>. R Markdown is
+a tool for making dynamic documents with R which combines markdown, a
+lightweight markup language that is an easy-to-write plain text format,
+and sections or chunks of embedded R code. This is powerful as is allows
+you to write reports or presentations that contain your R code as well
+as the documents being easy to write due to markdown.</p>
 <p>LaTeX has a great open-source community, and their are thousands of
 great templates, packages, and extensions out there which you can use
 depending on your needs. Two good places to start looking for templates
@@ -691,10 +779,26 @@ page</a> and the <a href="https://www.overleaf.com/latex/templates">Overleaf
 Templates</a>.</p>
 <div id="take-home-challenge" class="section level3">
 <h3>Take home challenge</h3>
-<p>Write your CV using LaTeX!</p>
-<p>LaTeX is a great tool to write your CV due to its control over
-formatting. Try making your CV using templates from either <a href="https://www.latextemplates.com/cat/curricula-vitae">latextemplates.com</a>
-or <a href="https://www.overleaf.com/latex/templates/tagged/cv">Overleaf</a>.</p>
+<p>Write your CV using LaTeX! LaTeX is a great tool to write your CV due
+to its control over formatting and all the many templates available.</p>
+<ol style="list-style-type: decimal">
+<li>Start a new project in Overleaf for your CV. If you are still in the
+LaTeX_workshop project, click on the home icon to return to the Overleaf
+home page</li>
+<li>Browse the available templates from either <a href="https://www.latextemplates.com/cat/curricula-vitae">latextemplates.com</a>
+or <a href="https://www.overleaf.com/latex/templates/tagged/cv">Overleaf</a></li>
+<li>Once you’ve picked a template, either copy the code into your new
+project, or if it is an Overleaf project click on <em>open as
+template</em> to get the code used to make it</li>
+<li>Using the template, play around with it to make it your own! Some
+fun ideas for you to test out:
+<ul>
+<li>Try out different fonts</li>
+<li>Add coloured text or sections</li>
+<li>Add an image (usually a picture of yourself)</li>
+<li>Add icons</li>
+</ul></li>
+</ol>
 </div>
 </div>
 
