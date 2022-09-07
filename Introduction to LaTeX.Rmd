@@ -83,9 +83,11 @@ You've emailed the author to ask them about the images and if you can use their 
 
 ### Task 0 — load the template into Overleaf
 
-Open Overleaf -> New Project (Green button in the upper-left corner) -> Upload Project -> upload the **LaTeX_workshop.zip** file
+1) Download all the [files](https://lsecloud.sharepoint.com/:f:/s/TEAM_APD-DSL-Digital-Skills-Trainers/EuB98M0onDpPrZY6cNrWkBcBhMH82p90h8keWN2u4B0FVQ?e=bAXjmK) to your computer
+2) Unzip/extract the files you have downloaded. On a Mac you double click the file to unzip, on a Windows you right-click -> extract all
+3) Open Overleaf -> New Project (Green button in the upper-left corner) -> Upload Project -> upload the **LaTeX_workshop.zip** file
 
-Once uploaded, Overleaf will present you with a split-screen. On the left side you will see LATeX code. On the right side you will see the result of running the code, i.e., the way you report will look like. As you can tell, it requires some work…
+Once uploaded, Overleaf will present you with a split-screen. On the left side you will see LaTeX code. On the right side you will see the result of running the code, i.e., the way you report will look like. As you can tell, it requires some work…
 
 ***
 
@@ -190,13 +192,21 @@ Next up, the methods section which has more new elements in equations and citati
 * Write the equations
 * Add the references, all of which are in the *references.bib* file
 
+***
+
+**Equation hint 1:** The easiest way to replicate this equation is to use *math* like: `\begin{math} your equation \end{math}`
+
+**Equation hint 2:** LaTeX has shortcuts for common mathematics symbols like plus and divide. Plus is `\sum` and divide is `\div`. What do you think multiplication would be? 
+
 If you added `\nocite{*}` on task 3, you can remove it now if your references are not appearing. 
 
-Reference hint 1: there are two ways to cite in LaTeX using either `\cite{}` or `\citep{}`. It looks like our example has used `\citep{}`.
+**Reference hint 1:** there are two ways to cite in LaTeX using either `\cite{}` or `\citep{}`. It looks like our example has used `\citep{}`.
 
-Reference hint 2: each reference in the  *references.bib* file has a label which you use within the cite command like `\cite{ggtext}`. 
+**Reference hint 2:** each reference in the *references.bib* file has a label which you use within the cite command like `\cite{ggtext}`. 
 
-Reference hint 3: if you are interested in having numbered references you can add in `\setcitestyle{numbers}` above `\bibliographystyle{apsr}`. This [useful Stack Exchange thread](https://tex.stackexchange.com/questions/412067/how-to-add-numbering-to-reference-list-but-still-use-authoryear-in-natbib) has more information. 
+**Reference hint 3:** if you are interested in having numbered references you can add in `\setcitestyle{numbers}` above `\bibliographystyle{apsr}`. This [useful Stack Exchange thread](https://tex.stackexchange.com/questions/412067/how-to-add-numbering-to-reference-list-but-still-use-authoryear-in-natbib) has more information. 
+
+***
 
 #### General note about references
 

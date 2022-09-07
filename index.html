@@ -341,7 +341,7 @@ pre code {
 <h1 class="title toc-ignore">Introduction to LaTeX</h1>
 <h4 class="author">Andrew Moles</h4>
 <address class="author_afil">
-Learning Developer, Digital Skills Lab<br><h4 class="date">02 September,
+Learning Developer, Digital Skills Lab<br><h4 class="date">07 September,
 2022</h4>
 
 </div>
@@ -503,11 +503,18 @@ document:</p>
 link to access the files</a></p>
 <div id="task-0-load-the-template-into-overleaf" class="section level3">
 <h3>Task 0 — load the template into Overleaf</h3>
-<p>Open Overleaf -&gt; New Project (Green button in the upper-left
+<ol style="list-style-type: decimal">
+<li>Download all the <a href="https://lsecloud.sharepoint.com/:f:/s/TEAM_APD-DSL-Digital-Skills-Trainers/EuB98M0onDpPrZY6cNrWkBcBhMH82p90h8keWN2u4B0FVQ?e=bAXjmK">files</a>
+to your computer</li>
+<li>Unzip/extract the files you have downloaded. On a Mac you double
+click the file to unzip, on a Windows you right-click -&gt; extract
+all</li>
+<li>Open Overleaf -&gt; New Project (Green button in the upper-left
 corner) -&gt; Upload Project -&gt; upload the
-<strong>LaTeX_workshop.zip</strong> file</p>
+<strong>LaTeX_workshop.zip</strong> file</li>
+</ol>
 <p>Once uploaded, Overleaf will present you with a split-screen. On the
-left side you will see LATeX code. On the right side you will see the
+left side you will see LaTeX code. On the right side you will see the
 result of running the code, i.e., the way you report will look like. As
 you can tell, it requires some work…</p>
 <hr />
@@ -661,18 +668,27 @@ introduction</li>
 <li>Add the references, all of which are in the <em>references.bib</em>
 file</li>
 </ul>
+<hr />
+<p><strong>Equation hint 1:</strong> The easiest way to replicate this
+equation is to use <em>math</em> like:
+<code>\begin{math} your equation \end{math}</code></p>
+<p><strong>Equation hint 2:</strong> LaTeX has shortcuts for common
+mathematics symbols like plus and divide. Plus is <code>\sum</code> and
+divide is <code>\div</code>. What do you think multiplication would
+be?</p>
 <p>If you added <code>\nocite{*}</code> on task 3, you can remove it now
 if your references are not appearing.</p>
-<p>Reference hint 1: there are two ways to cite in LaTeX using either
-<code>\cite{}</code> or <code>\citep{}</code>. It looks like our example
-has used <code>\citep{}</code>.</p>
-<p>Reference hint 2: each reference in the <em>references.bib</em> file
-has a label which you use within the cite command like
-<code>\cite{ggtext}</code>.</p>
-<p>Reference hint 3: if you are interested in having numbered references
-you can add in <code>\setcitestyle{numbers}</code> above
-<code>\bibliographystyle{apsr}</code>. This <a href="https://tex.stackexchange.com/questions/412067/how-to-add-numbering-to-reference-list-but-still-use-authoryear-in-natbib">useful
+<p><strong>Reference hint 1:</strong> there are two ways to cite in
+LaTeX using either <code>\cite{}</code> or <code>\citep{}</code>. It
+looks like our example has used <code>\citep{}</code>.</p>
+<p><strong>Reference hint 2:</strong> each reference in the
+<em>references.bib</em> file has a label which you use within the cite
+command like <code>\cite{ggtext}</code>.</p>
+<p><strong>Reference hint 3:</strong> if you are interested in having
+numbered references you can add in <code>\setcitestyle{numbers}</code>
+above <code>\bibliographystyle{apsr}</code>. This <a href="https://tex.stackexchange.com/questions/412067/how-to-add-numbering-to-reference-list-but-still-use-authoryear-in-natbib">useful
 Stack Exchange thread</a> has more information.</p>
+<hr />
 <div id="general-note-about-references" class="section level4">
 <h4>General note about references</h4>
 <p>The template, rather helpfully, has been set up to handle citations
