@@ -3,7 +3,7 @@ title: "Introduction to LaTeX"
 author:
    - name: Andrew Moles
      affiliation: Learning Developer, Digital Skills Lab
-date: "04 October, 2022"
+date: "29 June, 2023"
 output: 
   html_document: 
     theme: united
@@ -207,14 +207,19 @@ If you added `\nocite{*}` on task 3, you can remove it now if your references ar
 
 ***
 
-#### General note about references
+#### General notes about references
 
-The template, rather helpfully, has been set up to handle citations and references. If you are starting off from nothing, first you'll need these two lines somewhere before `\begin{document}`: 
+The LSE Library team offers a lot of support and advice on citing and referencing your own work. Information on this support can be found on the [library web page](https://www.lse.ac.uk/library/using-the-library/library-resources-guide/citing-and-referencing).
+
+This template, rather helpfully, has been set up to handle citations and references. If you are starting off from nothing, first you'll need these two lines somewhere before `\begin{document}`: 
 ```
 % this is for the bibliography
 \usepackage[]{natbib}
 \bibliographystyle{apsr}
 ```
+
+Note that the command `\bibliographystyle{apsr}` tells LaTeX what referencing style to use, which in this case is the *American Political Science Review* style. There are many possibilities, so before choosing a style for your own work, you should check with your department or librarian. A full list of bibliography styles is available on [this website](https://www.bibtex.com/bibliography-styles/). 
+
 And later in the document you'll need the code below which builds the reference list at the end of your document. This should go just before your `\end{document}`. 
 
 ```
