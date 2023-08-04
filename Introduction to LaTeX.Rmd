@@ -284,7 +284,7 @@ Download a copy for yourself to your computer (download to pdf button is next to
 
 ## Whats next?
 
-The Digital Skills Lab will be running a follow up workshop about ***report writing with R Markdown***. R Markdown is a tool for making dynamic documents with R which combines markdown, a lightweight markup language that is an easy-to-write plain text format, and sections or chunks of embedded R code. This is powerful as is allows you to write reports or presentations that contain your R code as well as the documents being easy to write due to markdown. 
+The Digital Skills Lab will be running a follow up workshop about ***report writing with Markdown***, using a next generation software called Quarto. Quarto is a tool for making dynamic documents with R/Python/Julia/JavaScript which combines markdown, a lightweight markup language that is an easy-to-write plain text format, YAML, and sections or chunks of embedded R/Python/Julia/JavaScript code. This is powerful as it allows you to write reports or presentations that contain your code, as well as the documents being easy to write due to the simplicity of markdown, and being well formatted by default like LaTeX. 
 
 LaTeX has a great open-source community, and their are thousands of great templates, packages, and extensions out there which you can use depending on your needs. Two good places to start looking for templates are the [LaTeX Templates page](https://www.latextemplates.com/) and the [Overleaf Templates](https://www.overleaf.com/latex/templates). 
 
