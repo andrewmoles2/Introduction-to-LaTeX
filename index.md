@@ -3,7 +3,7 @@ title: "Introduction to LaTeX"
 author:
    - name: Andrew Moles
      affiliation: Learning Developer, Digital Skills Lab
-date: "06 October, 2023"
+date: "25 October, 2023"
 output: 
   html_document: 
     theme: united
@@ -279,7 +279,7 @@ Download a copy for yourself to your computer (download to pdf button is next to
 
 ### Final task — take our survey
 
-<https://lse.eu.qualtrics.com/jfe/form/SV_6eSrOVWuit28qcS?coursename=Introduction%to%LaTeX&topic=Markdown&prog=SR&version=23-24&link=https://github.com/andrewmoles2/gender_pay_gap_example>
+<https://lse.eu.qualtrics.com/jfe/form/SV_ewXuHQ1nRnurTdY?coursename=Introduction%to%LaTeX&topic=LaTeX&prog=SR&version=23-24&link=https://github.com/andrewmoles2/gender_pay_gap_example>
 
 ## Whats next?
 
