@@ -3,7 +3,7 @@ title: "Introduction to LaTeX"
 author:
    - name: Andrew Moles
      affiliation: Learning Developer, Digital Skills Lab
-date: "13 October, 2025"
+date: "16 October, 2026"
 output: 
   html_document: 
     theme: united
@@ -119,6 +119,10 @@ The syntax of LaTeX has a few specific rules which are outlined below:
 -   Special characters like % need to be *escaped*, which means we ignore that characters special characteristics. This can be done with the backslash like: `25\%`
 
 ------------------------------------------------------------------------
+
+### Pre task - confidence survey!
+
+[Level 1 pre-confidence survey](https://forms.cloud.microsoft/e/tjVNuEq2Da){target="_blank"}
 
 ### Task 1 — title page
 
@@ -294,11 +298,9 @@ Download a copy for yourself to your computer (download to pdf button is next to
 
 ### Final task — take our survey
 
-[Please complete the survey which helps us improve our training](https://lse.eu.qualtrics.com/jfe/form/SV_0vJs5yGpF1F359I?coursename=Introduction%20to%20LaTeX&topic=LaTeX&prog=SR&version=25-26){target="_blank"}
+[Please complete the survey which helps us improve our training](https://forms.cloud.microsoft/e/jC7BzM9KZT){target="_blank"}
 
-## Whats next?
-
-The Digital Skills Lab will be running a follow up workshop about ***report writing with Markdown***, using a next generation software called Quarto. Quarto is a tool for making dynamic documents with R/Python/Julia/JavaScript which combines markdown, a lightweight markup language that is an easy-to-write plain text format, YAML, and sections or chunks of embedded R/Python/Julia/JavaScript code. This is powerful as it allows you to write reports or presentations that contain your code, as well as the documents being easy to write due to the simplicity of markdown, and being well formatted by default like LaTeX.
+## What's next?
 
 LaTeX has a great open-source community, and their are thousands of great templates, packages, and extensions out there which you can use depending on your needs. Two good places to start looking for templates are the [LaTeX Templates page](https://www.latextemplates.com/){target="_blank"} and the [Overleaf Templates](https://www.overleaf.com/latex/templates){target="_blank"}.
 

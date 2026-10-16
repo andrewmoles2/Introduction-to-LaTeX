@@ -3,7 +3,7 @@ title: "Introduction to LaTeX"
 author:
    - name: Andrew Moles
      affiliation: Learning Developer, Digital Skills Lab
-date: "19 September, 2024"
+date: "16 October, 2026"
 output: 
   html_document: 
     theme: united
@@ -120,6 +120,10 @@ The syntax of LaTeX has a few specific rules which are outlined below:
 
 ------------------------------------------------------------------------
 
+### Pre task - confidence survey!
+
+[Level 1 pre-confidence survey](https://forms.cloud.microsoft/e/tjVNuEq2Da){target="_blank"}
+
 ### Task 1 — title page
 
 Now we have the a basic document we need to build up that title page!
@@ -230,7 +234,7 @@ And later in the document you'll need the code below which builds the reference 
 \bibliography{references.bib}
 ```
 
-Note that for this workshop we are using the natbib bibliography referencing package. There are two other options, [biblatex](https://www.overleaf.com/learn/latex/Bibliography_management_with_biblatex){target="_blank"} and [bibtex](https://www.overleaf.com/learn/latex/Bibliography_management_with_bibtex){target="_blank"}. The natbib or biblatex options are the easiest to use and what we would recommend. 
+Note that for this workshop we are using the natbib bibliography referencing package. There are two other options, [biblatex](https://www.overleaf.com/learn/latex/Bibliography_management_with_biblatex){target="_blank"} and [bibtex](https://www.overleaf.com/learn/latex/Bibliography_management_with_bibtex){target="_blank"}. The natbib or biblatex options are the easiest to use and what we would recommend.
 
 ### Task 6 — hyperlinks
 
@@ -248,13 +252,13 @@ LaTeX comes to the rescue again. We can change these with the `\hypersetup{}` co
 
 While you are looking in the preamble section of the document you may have noticed the following LaTeX code:
 
-```
+```         
 % change font to Roboto light
 \usepackage[sfdefault,light]{roboto} 
 \usepackage[T1]{fontenc}
 ```
 
-In this code we are essentially changing the default LaTeX font to use Roboto, which is the standard font used around LSE. To change the font we used this [font resource](https://www.tug.org/FontCatalogue/){target="_blank"}. Through this we found Roboto, picked the [light style](https://www.tug.org/FontCatalogue/robotolight/){target="_blank"} and followed the usage example it detailed. 
+In this code we are essentially changing the default LaTeX font to use Roboto, which is the standard font used around LSE. To change the font we used this [font resource](https://www.tug.org/FontCatalogue/){target="_blank"}. Through this we found Roboto, picked the [light style](https://www.tug.org/FontCatalogue/robotolight/){target="_blank"} and followed the usage example it detailed.
 
 ### Task 7 — results
 
@@ -269,7 +273,7 @@ We finally get to the good stuff, our results page! Some new features you notice
 -   Make sure your figure has a label
 -   Now you can add the figure labels
 
-Hint: You might need to edit the table to make it look the same as the pdf. Some things you can try are adding or removing `\hline` arguments or removing the lines in the in the begin tablular command like the examples below:
+Hint: You might need to edit the table to make it look the same as the pdf. Some things you can try are adding or removing `\hline` arguments or removing the lines in the in the begin tabular command like the examples below:
 
 ```         
 % line between columns
@@ -294,11 +298,9 @@ Download a copy for yourself to your computer (download to pdf button is next to
 
 ### Final task — take our survey
 
-[https://lse.eu.qualtrics.com/jfe/form/SV_e4gllqd7FvmCNzo?coursename=Introduction to LaTeX&topic=LaTeX&prog=SR&version=24-25&link=https://github.com/andrewmoles2/gender_pay_gap_example](https://lse.eu.qualtrics.com/jfe/form/SV_e4gllqd7FvmCNzo?coursename=Introduction to LaTeX&topic=LaTeX&prog=SR&version=24-25&link=https://github.com/andrewmoles2/gender_pay_gap_example){target="_blank"}
+[Please complete the survey which helps us improve our training](https://forms.cloud.microsoft/e/jC7BzM9KZT){target="_blank"}
 
-## Whats next?
-
-The Digital Skills Lab will be running a follow up workshop about ***report writing with Markdown***, using a next generation software called Quarto. Quarto is a tool for making dynamic documents with R/Python/Julia/JavaScript which combines markdown, a lightweight markup language that is an easy-to-write plain text format, YAML, and sections or chunks of embedded R/Python/Julia/JavaScript code. This is powerful as it allows you to write reports or presentations that contain your code, as well as the documents being easy to write due to the simplicity of markdown, and being well formatted by default like LaTeX.
+## What's next?
 
 LaTeX has a great open-source community, and their are thousands of great templates, packages, and extensions out there which you can use depending on your needs. Two good places to start looking for templates are the [LaTeX Templates page](https://www.latextemplates.com/){target="_blank"} and the [Overleaf Templates](https://www.overleaf.com/latex/templates){target="_blank"}.
 
